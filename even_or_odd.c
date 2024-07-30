@@ -15,7 +15,7 @@ int main(void) {
   int numbers[9] = {0, 1, 21, 2, 100, -1, -21, -2, -100};
 
   for (int i = 0; i < 9; i++) {
-    printf("%s ", even_or_odd(numbers[i]));
+    printf("%s\n", even_or_odd(numbers[i]));
   }
 
   /* Output: Even Odd Odd Even Even Odd Odd Even Even */
