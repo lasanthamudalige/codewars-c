@@ -1,2 +1,1 @@
-# codewars-c
- Code wars challenges using C languag
+# Codewars challenges using C language
