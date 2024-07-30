@@ -21,11 +21,17 @@ There are four quadrants:
 */
 
 #include <stdio.h>
+enum quadrants quadrant(int, int);
 
 enum quadrants {I=1, II, III, IV};
 
 int main(void) {
-  printf("%d\n", II);
+  printf("%d\n", quadrant(1, 2));
+  printf("%d\n", quadrant(3, 5));
+  printf("%d\n", quadrant(-10, 100));
+  printf("%d\n", quadrant(-1, -9));
+  printf("%d\n", quadrant(1, 1));
+  printf("%d\n", quadrant(-60, -12));
   return 0;
 }
 
