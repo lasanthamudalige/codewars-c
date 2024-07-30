@@ -22,7 +22,7 @@ int main(void) {
     printf("%s\n", whatday(i));
   }
 
-  /* Output: Sunday Monday Tuesday Wednesday Thursday Friday Saturday */
+  /* Output: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday */
   return 0;
 }
 

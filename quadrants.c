@@ -24,6 +24,7 @@ There are four quadrants:
 enum quadrants quadrant(int, int);
 
 enum quadrants {I=1, II, III, IV};
+
 int main(void) {
   printf("Expected result: 1, Got: %d\n", quadrant(1, 2));
   printf("Expected result: 1, Got: %d\n", quadrant(3, 5));
